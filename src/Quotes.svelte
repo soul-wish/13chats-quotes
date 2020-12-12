@@ -28,11 +28,11 @@
       class="buttons text-2xl absolute bottom-5 right-5 flex items-center justify-between w-16 sm:w-full sm:px-8 sm:bottom-auto sm:right-auto">
       <button
         type="button"
-        class="border-none transition transform hover:scale-110"
+        class="border-none transition transform hover:scale-110 focus:outline-none"
         on:click={() => changeQuote(-1)}>←</button>
       <button
         type="button"
-        class="border-none transition transform hover:scale-110"
+        class="border-none transition transform hover:scale-110 focus:outline-none"
         on:click={() => changeQuote(1)}>→</button>
     </div>
   {/if}
