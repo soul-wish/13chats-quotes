@@ -23,7 +23,11 @@
 
 <main class="flex-1 flex flex-col items-center justify-center relative p-8 pb-12">
   {#if $quotes.length}
-    <pre class="text-3xl sm:px-12 whitespace-pre-wrap">{$quotes[$currentQuoteIndex].quote}</pre>
+    <pre class="text-4xl sm:px-12 whitespace-pre-wrap">{$quotes[$currentQuoteIndex].quote}</pre>
+    <div class="w-full text-right sm:px-12 pt-4 text-yellow-500 text-lg">
+      &copy;
+      {$quotes[$currentQuoteIndex].author}
+    </div>
     <div
       class="buttons text-2xl absolute bottom-5 right-5 flex items-center justify-between w-16 sm:w-full sm:px-8 sm:bottom-auto sm:right-auto">
       <button
