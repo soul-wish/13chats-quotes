@@ -3,7 +3,7 @@
 </script>
 
 <header class="p-8 pb-0 flex items-center">
-  <div class="rounded-xl bg-yellow-500 p-3 pb-1 relative">
+  <div class="rounded-xl bg-white p-3 pb-1 relative">
     <svg width="157" height="50" fill="none" xmlns="http://www.w3.org/2000/svg"><g
         clip-path="url(#clip0)"
         fill="#181C1C">
